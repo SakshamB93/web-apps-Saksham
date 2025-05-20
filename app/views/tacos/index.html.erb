@@ -2,8 +2,10 @@
 
 <p>There are so many delish tacos!</p>
 
+<% fillings = ["Carnitas","Pescado","Al Pastor","Avocado","Chicken"] %>
+
 <ul>
-<li>Carnitas</li>
-<li>Pescado</li>
-<li>Al Pastor</li>
+<% for filling in fillings %>
+<li><%=filling%></li>
+<% end %>
 </ul>

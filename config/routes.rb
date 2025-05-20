@@ -3,3 +3,8 @@ Rails.application.routes.draw do
   get("/tacos", :controller => "tacos", :action => "index")
 end
 
+Rails.application.routes.draw do
+  get("/dice", :controller => "dice", :action => "index")
+end
+
+
